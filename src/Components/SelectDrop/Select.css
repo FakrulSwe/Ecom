@@ -1,0 +1,11 @@
+.selectDrop{position: relative; cursor: pointer;}
+.selectD .openSelect{display: block; padding: 10px 0px;}
+.selectD .openSelect .arrow{position: absolute; top: 5px;}
+.selectD{ width: 300px; height: auto; background: aliceblue; position: absolute; top: 160%; left: 0px; z-index: 100; box-shadow: 0 3px 6px rgb(0 0 0/20%); padding: 15px; border-radius: 5px; margin-left: -20px;}
+.searchField input{ width: 100%; height: 35px; border: 1px solid #eb5454; border-radius: 3px; outline: none; padding: 0px 10px;}
+.selectD .searchResults{ width: 100%; margin: 0px;margin-top: 10px; padding: 10px 0px; max-height: 300px; overflow-y: scroll;}
+.selectD .searchResults::-webkit-scrollbar{ width: 10px !important;}
+.selectD .searchResults::-webkit-scrollbar-thumb{background: #ccc !important;}
+.selectD .searchResults li{list-style: none; font-size: 16px; width: 100%; padding: 10px; border-radius: 7px;}
+.selectD .searchResults li:hover{background: #ff7575; color: #fff; border-radius: 10px;}
+.selectD .searchResults li.active{background: #ccc; border-radius: 10px; color: #167389 !important;font-size: small;}

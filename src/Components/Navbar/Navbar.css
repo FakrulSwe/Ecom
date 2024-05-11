@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+.navbar{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 10px;
+    background-color: rgb(213, 193, 227);
+    display: flex;
+    justify-content   : space-around;
+    box-shadow        : 0 1px 3px -2px black;
+    /* color: #167389; */
+}
+/* .navbar{
+    display           : flex;
+    justify-content   : space-around;
+    padding           : 16px;
+    box-shadow        : 0 1px 3px -2px black;
+} */
+
+.nav-logo{
+    display           : flex;
+    align-items       : center;
+    gap               : 10px;
+}
+
+.nav-logo p{
+    color             : #171717;
+    font-size         : 38px;
+    font-weight       : 600;
+}
+
+.nav-menu{
+    display           : flex;
+    align-items       : center;
+    list-style        : none;
+    gap               : 30px;
+    color             : #626262;
+    font-size         : 20px;
+    font-weight       : 500;
+}
+
+.nav-menu li{
+    display           : flex;
+    flex-direction    : column;
+    align-items       : center;
+    justify-content   : center;
+    gap               : 3px;
+    cursor            : pointer;
+}
+
+.nav-menu hr{
+    border            : none;
+    width             : 80%;
+    height            : 3px;
+    border-radius     : 10px;
+    background        : #FF4141;
+}
+
+.nav-login-cart{
+    display           : flex;
+    align-items       : center;
+    gap               : 30px;
+}
+
+.nav-login-cart button{
+    width             : 137px;
+    height            : 58px;
+    outline           : none;
+    border            : 1px solid #7a7a7a;
+    border-radius     : 75px;
+    color             : #515151;
+    font-size         : 20px;
+    font-weight       : 500;
+    background-color  : white;
+    cursor            : pointer;
+}
+
+.nav-login-cart button:active{
+    background        : #f3f3f3;
+}
+
+.nav-cart-count{
+    width             : 22px;
+    height            : 22px;
+    display           : flex;
+    justify-content   : center;
+    align-items       : center;
+    margin-top        : -35px;
+    margin-left       : -55px;
+    border-radius     : 11px;
+    font-size         : 14px;
+    background        : red;
+    color             : white;
+}
+
+.headerSearch{ width: 100%;
+    height: 30px;
+    border: 1px solid #eb5454; 
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+}
+/* .positionselect{
+    position: static;
+} */
+.headerSearch .selectDrop{
+    /* width: max-content; */
+    /* font-size: 12px; */
+    width: 35%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    padding-right: 20px;
+}
+.headerSearch .selectDrop:after{
+    content: '';
+    width: 1px;
+    height: 30px;
+    background: #bab62c;
+    position: absolute;
+    right: 0px;
+    top: -3px;
+}
+
+.headerSearch .search{
+    width: 65%;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerSearch .search input{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    outline: none !important;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+.countyrSearch{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.countrywrapper .selectDrop{width: max-content !important; border: 1px solid #eb5454; background-color: aliceblue; border-radius: 8px;
+    padding: 10px 10px; height: 30px; font-weight: 400; font-size: 16px; box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.05);
+}
