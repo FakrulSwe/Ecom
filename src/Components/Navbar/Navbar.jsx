@@ -11,9 +11,8 @@ import axios from 'axios';
 
 const Navbar = () => {
 
-  const [isOpenDropDown, setisOpenDropDown] = useState(false);
     
-    const [categories, setCategories] = useState([
+    const [categories] = useState([
         'Jewelry',
         'Bags',
         'Shoes',
